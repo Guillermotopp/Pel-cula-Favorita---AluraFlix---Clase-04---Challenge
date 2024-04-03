@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Inmersión Dev 02</title>
+</head>
+<body>
+    <html>
+
+
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Aluraflix Inmersion
+    </h1>
+    <img src="https://user-images.githubusercontent.com/121910576/257301160-11f2dba6-23f2-4a8a-8c14-10ca8825acc8.png" class="page-logo" alt="">
+    <p class="page-subtitle">
+      ¿ Cuál es tú película favorita?
+    </p>
+    <div class="form-wrapper">
+        
+        <button class="nombrePelicula" onclick="cambiarNombrePelicula()">Nombre de la Película</button>
+
+        <div class="peliculas-caja">
+            <button onclick="peliculaIzquierda()">"<"</button>
+            <img class="pelicula" src="" alt="imagen central de la biblioteca">
+            <button onclick="peliculaDerecha()">">"</button>
+        </div>
+      <input type="text" id="pelicula" name="pelicula" placeholder="Agregue la dirección de la imagen">
+      <div class="botones">
+        <button onClick="agregarPelicula()">Agregar Película</button>
+        <button onClick="eliminarPelicula()">Eliminar Película</button>
+      </div>
+    </div>
+  </div>
+  <div id="listaPeliculas">
+    
+  </div>
+  <a href="https://www.aluracursos.com/" target="_blank">
+    <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-latam-logo">
+  </a>
+  <script src="./script.js"></script>  
+</body>
+
+</html>
